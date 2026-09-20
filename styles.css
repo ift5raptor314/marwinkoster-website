@@ -22,6 +22,10 @@ h3 {
     color: rgb(31, 67, 134);
     font-size: 50px;
 }
+h4 {
+    color: white;
+    font-size: 30px;
+}
 p {
     color: white;
     font-size: 20px;
