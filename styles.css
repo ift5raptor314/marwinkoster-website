@@ -30,17 +30,17 @@ pre {
     color: white;
     font-size:15px;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 75%;
+    max-width: 1000px;
 }
 .text-container {
-  max-width: 1000px;       /* Prevents lines from stretching too wide */
-  width: 90%;             /* Keeps it responsive on mobile screens */
-  margin-left: auto;      /* Centers the container horizontally */
+  max-width: 1000px;
+  width: 90%;
+  margin-left: auto;
   margin-right: auto;
-  line-height: 1.6;       /* Adds comfortable breathing room between lines */
+  line-height: 1.6;
 }
