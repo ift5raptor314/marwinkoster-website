@@ -26,6 +26,13 @@ h4 {
     color: white;
     font-size: 30px;
 }
+h5 {
+    color: white;
+    font-size: 50px;
+    background-image: url("h5.jpg");
+    background-size: cover;
+    background-position: center;
+}
 p {
     color: white;
     font-size: 20px;
@@ -64,7 +71,7 @@ pre {
   margin-right:auto;
   width: 300px;
 }
-.buttonback {
+.button {
   display: block;
   padding: 5px 10px;
   font-size: 16px;
@@ -78,7 +85,6 @@ pre {
   border-radius: 15px;
   margin-left:auto;
   margin-right:auto;
-  width: 50px;
 }
 .buttonmedia {
   display: block;
