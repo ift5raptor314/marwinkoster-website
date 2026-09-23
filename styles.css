@@ -33,6 +33,13 @@ h5 {
     background-size: cover;
     background-position: center;
 }
+h6 {
+    color: white;
+    font-size: 50px;
+    background-image: url("h6.jpg");
+    background-size: cover;
+    background-position: center;
+}
 p {
     color: white;
     font-size: 20px;
@@ -119,4 +126,31 @@ pre {
     background-color: black;
     border: 2px solid white;
     box-shadow: 0px 0px 40px white;
+}
+.buttonmenu {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb(31, 67, 134);
+  border: 1px solid rgb(31, 67, 134);
+  border-radius: 15px;
+  vertical-align: middle;
+  margin-left:5px;
+  transition: background-color 0.5s, box-shadow 0.5s, border 0.5s;
+}
+.buttonmenu:hover {
+    background-color: black;
+    border: 1px solid white;
+    box-shadow: 0px 0px 40px rgb(31, 67, 134);   
+}
+.icon {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 5px;
+  vertical-align: middle;
 }
