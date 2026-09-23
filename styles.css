@@ -139,7 +139,7 @@ pre {
   background-color: rgb(31, 67, 134);
   border: 1px solid rgb(31, 67, 134);
   border-radius: 15px;
-  vertical-align: middle;
+  vertical-align: top;
   margin-left:5px;
   transition: background-color 0.5s, box-shadow 0.5s, border 0.5s;
 }
@@ -152,5 +152,10 @@ pre {
   display: inline-block;
   margin-left: 10px;
   margin-right: 5px;
-  vertical-align: middle;
+  vertical-align: top;
+}
+.navbar {
+    position: sticky;
+    top: 0px;
+    background-color: black;
 }
