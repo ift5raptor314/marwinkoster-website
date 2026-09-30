@@ -30,7 +30,7 @@
     border: 2px solid white;
     background-color: rgb(31, 67, 134);
     color: white;
-    transition: all 0.3s;
+    transition: all 0.5s;
     margin-bottom: 10px;
 }
 .email-input:focus {
@@ -46,7 +46,7 @@
     border: 2px solid white;
     background-color: rgb(31, 67, 134);
     color: white;
-    transition: all 0.3s;
+    transition: all 0.5s;
 }
 .message-input:focus {
     background-color: black;
