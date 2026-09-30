@@ -1,0 +1,55 @@
+.contact-info {
+    display: inline-block;
+    whith: 350px;
+    height: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.contact-inputcontainer {
+    display: inline-block;
+    width: 350px;
+    height: auto;
+    vertical-align: top;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.contact-inputtitletext {
+    text-align: center;
+}
+.contact-input {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.email-input {
+    width: 236px;
+    height: 20px;
+    padding: 5px;
+    border-radius: 17px;
+    border: 2px solid white;
+    background-color: rgb(31, 67, 134);
+    color: white;
+    transition: all 0.3s;
+    margin-bottom: 10px;
+}
+.email-input:focus {
+    box-shadow: 0px 0px 150px rgb(31, 67, 134);
+    outline: 2px solid rgb(31, 67, 134);
+    background-color: black;
+}
+.message-input {
+    width: 236px;
+    height: auto;
+    padding: 5px;
+    border-radius: 17px;
+    border: 2px solid white;
+    background-color: rgb(31, 67, 134);
+    color: white;
+    transition: all 0.3s;
+}
+.message-input:focus {
+    background-color: black;
+    outline: 2px solid rgb(31, 67, 134);
+    box-shadow: 0px 0px 150px rgb(31, 67, 134);
+}
